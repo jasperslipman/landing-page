@@ -6,6 +6,26 @@ body {
     display: flex;
 }
 
+#quotecontainer {
+    padding: 50px;
+    flex-direction: column;
+}
+#sectionthree {
+    background-color: #E5E7EB;
+}
+
+#quotebox {
+    font-size: 40px;
+    font-style: light italic;
+
+}
+#author {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+    margin-left: auto;
+}
+
 #headerlinks {
     display: flex;
     flex-direction: row;
@@ -112,7 +132,7 @@ body {
     color: #F9FAF8;
 }
 
-#sectionone, #sectiontwo {
+#sectionone, #sectiontwo, #sectionthree{
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
