@@ -33,6 +33,40 @@ body {
     
 }
 
+.bananacardimg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 75px;
+    flex-wrap: wrap;
+    
+}
+
+#cardtitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    min-width: min-content; 
+}
+
+.cardtext {
+    text-align: center;
+}
+#cardone, #cardtwo, #cardthree, #cardfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+} 
+
 #heroboxone {
     flex-direction: column;
     min-width: min-content;
@@ -61,6 +95,8 @@ body {
 
 #sectiontwo {
     background-color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
 #headerlogo {
