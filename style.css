@@ -25,6 +25,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    margin-top: 80px; 
+    margin-bottom: 80px;
 }
 #heroboxone, #heroboxtwo {
     width: 50%;
@@ -33,10 +35,14 @@ body {
 
 #heroboxone {
     flex-direction: column;
+    min-width: min-content;
 }
 
 #heroboxtwo {
-    flex-direction: row;
+    background-image: url('./images/banana.png');
+    background-size: 100% 100%;
+    min-width: 100px; 
+    
 }
 
 #heromaintext {
@@ -53,14 +59,12 @@ body {
     background-color: #1f2937;
 }
 
-#headerlogo {
-    font-size: 24px;
+#sectiontwo {
+    background-color: white;
 }
 
-#bananaimage {
-    max-height: 100%;
-    width: 100%; 
-    
+#headerlogo {
+    font-size: 24px;
 }
 
 .headerlink, #herosecondarytext {
@@ -72,8 +76,8 @@ body {
     color: #F9FAF8;
 }
 
-#sectionone {
+#sectionone, #sectiontwo {
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
