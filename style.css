@@ -132,7 +132,46 @@ body {
     color: #F9FAF8;
 }
 
-#sectionone, #sectiontwo, #sectionthree{
+#sectionfour {
+    align-items: center;
+    justify-content: center;
+}
+#ctacontainer {
+    flex-direction: row;
+    background-color: blue;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 80px;
+    
+}
+
+#bluecta {
+    align-self: center;
+}
+
+#ctatext {
+font-size: 40px;
+color: white;
+}
+
+#textholder {
+    flex-direction: column;
+    
+}
+
+.calltoaction {
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background-color: blue;
+}
+
+#sectionone, #sectiontwo, #sectionthree, #sectionfour {
     flex-direction: column;
     padding-left: 200px;
     padding-right: 200px;
